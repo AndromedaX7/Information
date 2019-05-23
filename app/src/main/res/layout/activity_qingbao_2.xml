@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <include layout="@layout/block_qingbao_0" />
+
+        <include layout="@layout/block_qingbao_1" />
+
+        <include layout="@layout/block_qingbao_2" />
+
+        <FrameLayout
+            android:id="@+id/mBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/block_qingbao_3_1" />
+
+            <include layout="@layout/block_qingbao_3_2" />
+        </FrameLayout>
+
+        <include layout="@layout/block_qingbao_4" />
+    </LinearLayout>
+</ScrollView>

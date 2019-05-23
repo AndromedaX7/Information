@@ -1,0 +1,28 @@
+<!--<Switch xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:padding="16dp" android:id="@+id/mSwitch"--><!--android:text="是否见面" />-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_marginTop="8dp"
+    android:gravity="start|center" android:paddingEnd="8dp"
+    android:paddingStart="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="是否见面" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/yesNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</LinearLayout>
